@@ -1,14 +1,18 @@
 import React from 'react';
+import Form from './Form';
+import Tile from './Tile';
+import Footer from './Footer';
+import Header from './Header';
 
-function  clicked() {
-  console.log('Clicked!');
-}
+
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <button onClick={clicked}>Click Me!</button>
+      <Header />
+      <Form />
+      <Tile />
+      <Footer />
     </div>
   )
 }
