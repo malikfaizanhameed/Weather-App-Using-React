@@ -64,15 +64,22 @@ class Form extends Component {
                             <button
                                 onClick={this.handleClick}
                                 type='submit'
-                            >   SUBMIT 
+                            >   SUBMIT
                             </button>
                             <span className="msg"></span>
                         </form>
                     </div>
                 </section>
-                <Tile 
-                    data={this.state.response}
-                />
+                <section className="ajax-section">
+                    <div className="container">
+                        <ul className="cities">
+                            <Tile
+                                data={this.state.response}
+                            />
+                        </ul>
+
+                    </div>
+                </section>
             </div>
         )
     }
