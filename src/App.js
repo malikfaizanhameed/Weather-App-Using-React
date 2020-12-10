@@ -1,19 +1,20 @@
 import React from 'react';
 import Form from './Form';
-import Tile from './Tile';
+
 import Footer from './Footer';
 import Header from './Header';
 
 
 
 function App() {
+  // const [cityName, setCityName] = useState(' ');
   return (
-    <div>
+    <>
       <Header />
       <Form />
-      <Tile />
+      {/* <Tile /> */}
       <Footer />
-    </div>
+    </>
   )
 }
 
