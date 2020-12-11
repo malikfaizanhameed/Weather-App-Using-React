@@ -39,7 +39,6 @@ function Tile(props) {
             </>
         )
     }
-
 }
 
 export default Tile;

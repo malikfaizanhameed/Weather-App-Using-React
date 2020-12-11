@@ -38,9 +38,6 @@ function App() {
       // reset('Please enter a valid city name!');
     };
   }
-
-
-
   return (
     <>
       <Header />
